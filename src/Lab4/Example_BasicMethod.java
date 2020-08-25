@@ -9,7 +9,12 @@ public class Example_BasicMethod {
         
         
     }//B
-    
+    public static int C(int x, int y){
+        //Statement
+        System.out.println("Hello C.");
+        int Sum = x + y ;
+        return Sum;
+    }//C
     
     public static void main(String[] args) {
         System.out.println("Hello Main.");
@@ -18,6 +23,9 @@ public class Example_BasicMethod {
         A();
         A();
         B(100);
+        int sum = C (100 ,200);
+        System.out.println(sum);
+        System.out.println(C(500 ,600));
 
 
     }//main
