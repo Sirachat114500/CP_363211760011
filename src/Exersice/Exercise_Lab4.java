@@ -39,7 +39,7 @@ public class Exercise_Lab4 {
                 double area2 = findArea(r, l);
                 System.out.print("The area of Cone :"+area2);
                 break;
-            case 3:System.out.print("Enter :รัศมีของวงกลม ");
+            case 3:System.out.print("Enter :Radius of circle ");
                 double PI = SC.nextDouble();
                 double Circle = findAreaCircle(PI);
                 System.out.println("The area of Circle:"+Circle);
