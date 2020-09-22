@@ -31,8 +31,19 @@ public class Exercise_Lab4 {
                 double area = findArea(b, h);
                 System.out.print("The area of Triangle :"+area);
                 break;
-            case 2:break;
-            case 3:break;
+            case 2:
+                System.out.print("Enter radius");
+                double r = SC.nextDouble();
+                System.out.print("Enter high");
+                Double l = SC.nextDouble();
+                double area2 = findArea(r, l);
+                System.out.print("The area of Cone :"+area2);
+                break;
+            case 3:System.out.print("Enter :รัศมีของวงกลม ");
+                double PI = SC.nextDouble();
+                double Circle = findAreaCircle(PI);
+                System.out.println("The area of Circle:"+Circle);
+                break;
             case 4:System.exit(1) ; break;
             default:System.out.print("Please, select number 1-4.");
         }
@@ -47,19 +58,17 @@ public class Exercise_Lab4 {
 
     }
     //Cone
-    public  static  double findAreaCone(double r, double l){
+    public  static  double findAreacone(double r, double l){
         return (PI * r * l) + (PI * r * r);
 
     }
     //Circle
-    public static double findArea (double r){
+    public static double findAreaCircle (double r){
         return 2 * PI * r;
 
 
 
     }
-
-
 
 }
 
