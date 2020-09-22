@@ -4,8 +4,8 @@ public class Example_OverloadMethod {
 
     public static void main(String[] args) {
 
-        int max = max( x: 5, y: 10 );
-        double max2 = max(x: 5.0, y: 10.0) ;
+        int max = max( 5,10 );
+        double max2 = max(5.0,10.0) ;
 
 
     }//main
