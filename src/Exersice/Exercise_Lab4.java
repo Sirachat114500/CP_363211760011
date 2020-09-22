@@ -33,7 +33,7 @@ public class Exercise_Lab4 {
                 break;
             case 2:break;
             case 3:break;
-            case 4:System.exit(i:1) ; break;
+            case 4:System.exit(1) ; break;
             default:System.out.print("Please, select number 1-4.");
         }
 
