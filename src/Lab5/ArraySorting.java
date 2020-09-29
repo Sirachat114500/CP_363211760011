@@ -1,6 +1,7 @@
 package Lab5;
 
 import java.util.Arrays;
+import java.util.Collection;
 
 //sorting คือ การเรียงข้อมูล
 public class ArraySorting {
@@ -12,11 +13,12 @@ public class ArraySorting {
         //ascending น้อย - มาก
 
         Arrays.sort(number);
+
                 for (int val :number) {
 
-                    System.out.print(val+"");
+                    System.out.print(val+" ");
                 }
-        System.out.print();
+
 
         //descending มาก - น้อย
 
