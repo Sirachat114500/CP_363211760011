@@ -31,9 +31,6 @@ public class Basiclnput {
         //Email
 
 
-    }
+    }//main
 
-
-
-
-}//main
+}//class
