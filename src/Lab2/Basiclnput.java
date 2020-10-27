@@ -13,16 +13,19 @@ public class Basiclnput {
         name = scanner.nextLine();
         System.out.println("You name is"+name);
 
+        String major;
         System.out.println("What is your major? : ");
-        String major = scanner.nextLine();
+        major = scanner.nextLine();
         System.out.println("Your major is"+major);
 
+        String Age;
         System.out.println("You is Age? : ");
-        String Age = scanner.nextLine();
+        Age = scanner.nextLine();
         System.out.println("Your is Age"+Age);
 
+        String Email;
         System.out.println("You is Email? : ");
-        String Email = scanner.nextLine();
+        Email = scanner.nextLine();
         System.out.println("Your is Email"+Email);
 
 

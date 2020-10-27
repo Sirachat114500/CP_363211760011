@@ -18,8 +18,13 @@ public class ExFinally {
             } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
-            System.out.println("Can not read text from file.");
+            System.out.println("Could not read text from file.");
             e.printStackTrace();
+        }finally {
+        // connect DB
+            // Close connection
+
+            System.out.println("Test Fially");
         }
 
 
